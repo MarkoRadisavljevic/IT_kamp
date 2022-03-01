@@ -74,6 +74,8 @@ body {
 }
 .kraj button {
     padding: 5px 20px;
+    background-color: rgb(0, 0, 255);
+    color: white;
 }
 .kraj i{
     margin-top: 10px;
