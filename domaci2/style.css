@@ -21,6 +21,9 @@ body {
     padding-right: 25px;
     border-bottom: 1px gray solid;
 }
+.step span {
+    margin-left: 5px;
+}
 .step:hover {
     background-color: rgb(199, 199, 255);
     border-bottom: 1px solid blue;
