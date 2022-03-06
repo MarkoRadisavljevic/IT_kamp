@@ -1,0 +1,36 @@
+.div {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    border: 1px black solid;
+}
+p {
+    margin: 0px;
+}
+.top_left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.top_right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.bottom_left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.bottom_right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.centered {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 48%;
+}
