@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.prozor {
+    height: 100vh;
+    width: 100vw;
+}
+.steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step {
+    font-size: 18px;
+    padding: 10px 0px;
+    padding-left:25px;
+    padding-right: 25px;
+    border-bottom: 1px gray solid;
+}
+.step span {
+    margin-left: 5px;
+}
+.step:hover {
+    background-color: rgb(199, 199, 255);
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+.velicina {
+    height: 273px;
+    width: 300px;
+    margin: 14vh 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    color: gray;
+    margin-bottom: 30px;
+}
+.velicina span {
+    font-size:43px;
+    font-weight: 100;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 200px;
+    margin: 0vh 200px;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+.small_tet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(179, 179, 179);
+}
+.big_text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}

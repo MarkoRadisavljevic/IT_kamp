@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+}
+div {
+    display: inline-block;
+    height: auto;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 15px;
+}
+i {
+    display: inline;
+}
+h4 {
+    display: inline-block;
+    margin: 5px 0px;
+}
+h5 {
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+h1 {
+    margin: 10px 3px;
+    font-size: 38px;
+
+}
+
+#sve {
+    display: inline-block;
+}
+.poslednih41 {
+    margin-bottom: 57px;
+}
+.poslednji2 {
+    margin-bottom: 30px;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 7px;
+    background-color: rgb(100, 100, 100);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 3px;
+    color: white;
+}
+h2 {
+    font-size: 12px;
+    margin: 7px 0px;
+}
+.arrow {
+    float: right;
+    padding-left: 180px;
+}

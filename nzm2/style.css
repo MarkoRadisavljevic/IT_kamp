@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    padding-top:  50px;
+}
+.left_div {
+    background-color: red;
+    float: left;
+    width: 50%;
+    height: 611px;
+}
+.right_div {
+    background-color: blue;
+    float: right;
+    width: 30%;
+    height: 611px;
+}
+.broj {
+    margin-left: 55px;
+    display: inline-block;
+}
+.broj p {
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+}
+.broj span {
+    font-size: 38px;
+}
+.brojevi {
+    margin-bottom: 50px;
+}
+.ikonice {
+    margin-left: 30px;
+}
+.ikonice  i{
+    font-size: 50px;
+    padding: 10px;
+    background-color:white;
+    border: 0px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: red;
+}
+.ikonice p {
+    display: inline-block;
+    margin-left: 20px;
+    width: 77px;
+}

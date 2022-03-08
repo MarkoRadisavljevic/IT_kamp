@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+body {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+.sve {
+    margin-left: 400px;
+    margin-top: 100px;
+    height: 470px;
+    width: 433px;
+}
+.mali_naslov {
+    font-size: 12px;
+    color: gray;
+    margin: 5px 0px;
+    letter-spacing: 1.5px;
+}
+.veliki_naslov {
+    font-size: 24px;
+    margin: 5px 0px;
+    margin-bottom: 15px;
+}
+.prizori {
+    border-bottom: 2px solid rgb(150, 150, 150);
+    height: 41px;
+}
+.prizori h2 {
+    font-size: 15px;
+    display: inline-block;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    color: gray;
+    padding-left: 0px;
+    margin-bottom: 0px;
+
+}   
+.prizori h2:hover {
+    border-bottom:2px solid rgb(45, 45, 255);
+}
+.text {
+    font-size: 14px;
+    line-height: 170%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    border-bottom: 0.75px rgb(230, 230, 230) solid;
+    color: gray;
+}
+.podatci h2,h3 {
+    font-size: 14px;
+    display: inline-block;
+    color: gray;
+}
+.podatci h2 {
+    float: right;
+    color: black;
+}
+.podatci {
+    border-bottom: 0.75px solid rgb(230, 230, 230);
+}
+.kraj {
+    margin-top: 20px;
+}
+.kraj h1,button,i {
+    display: inline-block;
+}
+.kraj button,i {
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+}
+.kraj button {
+    padding: 5px 20px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+.kraj i{
+    margin-top: 10px;
+    color:  gray;
+    height: 20px;
+    width: 20px;
+}
+.kraj h1 {
+    margin-top: 0px;
+}
