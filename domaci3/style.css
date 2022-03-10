@@ -30,6 +30,9 @@ body {
     display: none; 
     padding: 3px 10px;
 }
+.card:hover {
+    border-color: rgb(141, 141, 141);
+}
 .card:hover #options{
     display: flex;
 }
@@ -67,4 +70,46 @@ body {
 .slika  {
     height: 150px;
     width: 300px;
+}
+#arrow  {
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 2px;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+.arrow_text {
+    font-size: 16px;
+    color: rgb(201, 201, 201);
+    font-weight: 600;
+}
+#comment {
+    text-align: center;
+    display: inline-block;
+    color: rgb(201, 201, 201);
+    margin-left: 80px;
+    margin-right: 2px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+} 
+#book_mark {
+    margin-left: 90px;
+    display: inline-block;
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.hover {
+    display: inline-block;
+}
+.hover:hover i {
+    background-color: rgb(52, 129, 52);
+    color: rgb(97, 214, 97) !important;
+}
+.hover:hover span {
+    color: rgb(97, 214, 97) !important;
 }
