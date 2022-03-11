@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.futer_vrh {
+    height: 90px;
+    width: 1297px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.levi_futer_vrh {
+    width: 450px;
+    height: 50px;
+    padding: 0px 12px; 
+}
+.levi_futer_vrh i {
+    padding: 10px;
+    background-color:  #c18e3c;
+    float: right;
+    font-size: 20px;
+    margin: 5px 0px;
+    color: white;
+}
+.levi_futer_text {
+    padding-right: 15px;
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.free_call {
+    color: #c18e3c;
+}
+.broj {
+    color: white;
+}
+.call_us {
+    color: gray;
+    font-size: 12px;
+}
+.ikonica_naslov {
+    width: 166px;
+    height: 87px;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ikonica_naslov i{
+    color: #191919;
+    text-shadow: -1.5px 0 #c18e3c, 0 1.5px #c18e3c, 1.5px 0 #c18e3c, 0 -1.5px #c18e3c;
+    font-size: 32px;
+}
+.big_header  {
+    font-size: 26px;
+    color: white;
+    font-weight: 900;
+}
+.small_header {
+    font-size: 12px;
+    font-weight: 900;
+    color: #c18e3c;
+    margin-top:-9px ;
+}
+.desni_futer_gore {
+    width: 450px;
+    height: 50px; 
+    padding: 0px 12px;
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+}
+.desni_futer_gore i {
+    padding: 10px;
+    background-color:  #c18e3c;
+    float: left;
+    font-size: 20px;
+    margin: 5px 0px;
+    color: white;
+}
+.desni_futer_text {
+    padding-left: 15px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.one_slike {
+    background-image: url("./prva_slika_kandidat.jpg");
+    background-size: 1297px 700px;
+    width: 1297px;
+    height: 700px;
+    display: block;
+}
