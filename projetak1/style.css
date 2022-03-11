@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 
 body {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 .futer_vrh {
     height: 90px;
@@ -19,6 +21,7 @@ body {
     width: 450px;
     height: 50px;
     padding: 0px 12px; 
+    margin-top: 30px;
 }
 .levi_futer_vrh i {
     padding: 10px;
@@ -78,6 +81,7 @@ body {
     width: 450px;
     height: 50px; 
     padding: 0px 12px;
+    margin-top: 30px;
     display: flex;
     justify-content: baseline;
     align-items: flex-start;
@@ -103,8 +107,94 @@ body {
 }
 .one_slike {
     background-image: url("./prva_slika_kandidat.jpg");
-    background-size: 1297px 700px;
+    background-size: 1297px 750px;
     width: 1297px;
     height: 700px;
     display: block;
+}
+.fake_dropdown {
+    height: 62px;
+    width: 1120px;
+    padding: 0px 10px;
+    margin: 0px 78.5px;
+    background-color: #2c2c2c;
+    position: relative;
+    bottom: 20px;
+}
+.dropdown_options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding-top: 18px;
+}
+.dropdown_options span {
+    display: inline-block;
+}
+.dropdown_options span:hover {
+    color: #c18e3c;
+}
+.search i {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+    padding: 10px;
+}
+.fake_dropdown i:hover {
+    transform: rotate(-360deg);
+}
+.search input {
+    position:absolute;
+    top: 22px;
+    right: 45px;
+    padding-right: 0px;
+    background-color: #2c2c2c;
+    border: none;
+    font-size: 14px;
+    color: white;
+    visibility: hidden;
+    transition: 2s;
+}
+.search i:hover + input {
+    visibility: visible;
+}
+.ona_slika_text {
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 450px;
+    height: 440px;
+}
+.ona_slika_text a {
+    text-decoration: none;
+}
+.ona_slika_text h1 {
+    font-size: 58px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    color: white;
+}
+.ona_slika_text span {
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.link_home {
+    padding: 20px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #c18e3c;
+    margin-top: 40px;
+    width: 210px;
+}
+.link_home span {
+    font-size: 16px;
+    margin-right: 20px;
 }
