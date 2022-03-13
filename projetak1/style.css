@@ -299,6 +299,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(235, 235, 235);
 }
 
 .practise_areas span {
@@ -314,4 +315,47 @@ body {
     font-family: 'Cormorant Garamond', serif;
     margin-top: 10px;
     margin-bottom: 100px;
+}
+.practise_areas_cards {
+    width: 1140px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.practise_areas_card {
+    margin: 12px;
+    width: 260px;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+}
+.practise_areas_card img {
+    height: 280px;
+    width: 260px;
+}
+.practise_areas_card i {
+    font-size: 30px;
+    padding: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 35px;
+    color:#c18e3c;
+    background-color: rgb(235, 235, 235);
+}
+.practise_areas_card h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    margin-left: 25px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.practise_areas_card p {
+    color: gray;
+    font-size: 14px;
+    padding: 0px 25px;
+    font-weight: 600;
+
 }
