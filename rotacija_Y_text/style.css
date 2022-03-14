@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+span {
+    font-size: 60px;
+    font-weight: 900;
+    animation-name: rotatetext;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+div {
+    text-align: center;
+    margin-top: 20%;
+}
+@keyframes rotatetext {
+    0% {transform: rotateY(0deg);}
+    100% {transform: rotateX(20deg);}
+}
