@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    font-size: 60px;
+    font-weight: 900;
+    animation-name: rotatetext;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+}
+div {
+    text-align: center;
+    margin-top: 20%;
+}
+@keyframes rotatetext {
+    0% {transform: rotateY(-360deg);}
+    50% {transform: rotateY(0deg);}
+}
+#one {
+    animation-delay: 0.2s;
+}
+#two {
+    animation-delay: 0.5s;
+}
+#one {
+    animation-delay: 1s;
+}
+#three {
+    animation-delay: 1.5s;
+}
+#four {
+    animation-delay: 2s;
+}
+#five {
+    animation-delay: 2.5s;
+}
+#six {
+    animation-delay: 3s;
+}
+#seven {
+    animation-delay: 3.5s;
+}
+#eight {
+    animation-delay: 4s;
+}

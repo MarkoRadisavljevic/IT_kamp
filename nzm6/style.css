@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.drop_down {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.drop_down a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.drop_down a:hover {
+    color: black;
+    background-color: gray;
+}
+@media screen and (max-width: 600px) {
+    .drop_down {
+        flex-direction: column;
+        text-align: center;
+    }
+    .drop_down a {
+        width: 100%;
+    }
+}

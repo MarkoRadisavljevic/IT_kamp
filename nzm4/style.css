@@ -1,0 +1,63 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: rotatebox;
+    animation-duration: 2s;
+    transform: rotate(45deg);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+    animation-timing-function: ease;
+}
+nav {
+    margin-top: 200px;
+    margin-left: 600px;
+}
+.right {
+    position: relative;
+    left:120px;
+}
+.left {
+    position: relative;
+    bottom: 200px;
+    right: 120px;
+}
+@keyframes rotatebox {
+    25% {
+
+        transform: rotate(90deg);
+        border-radius: 50% 0 0 0 ;
+    }
+    26% {
+
+        transform: rotate(87deg);
+        /* border-radius: 50% 0 0 0 ; */
+    }
+    50% {
+
+        transform:rotate(135deg) ;
+        border-radius: 50% 50% 0 0 ;
+    }
+    51% {
+
+        transform:rotate(132deg) ;
+        /* border-radius: 50% 50% 50% 0 ; */
+    }
+    75% {
+
+        transform:rotate(180deg) ;
+        border-radius: 50% 50% 50% 0 ;
+    }
+    76% {
+
+        transform:rotate(177deg) ;
+        /* border-radius: 50% 50% 50% 0 ; */
+    }
+
+    100% {
+
+        transform:rotate(225deg) ;
+        border-radius: 50% 50% 50% 50% ;
+    }
+}
