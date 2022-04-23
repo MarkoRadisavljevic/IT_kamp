@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#main {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 200px;
+    display: grid;
+    grid-template-areas: 
+        "prvi" "drugi" "treci" "treci" "treci"
+        "peti" "sesti" "sedmi" "osmi" "osmi"
+        "deveti" "deseti" "sedmi" "osmi" "osmi"
+        "cetvrti" "cetvrti" "sedmi" "jedanaesti" "sedmi";
+}
+#prvi {
+    grid-area: prvi;
+    background-color: darkgreen;
+}
+#derugi {
+    grid-area: drugi;
+    background-color: darkseagreen;
+}
+#treci {
+    grid-area: treci;
+    background-color: lightgreen;
+}
+#cetvrti {
+    grid-area: peti;
+    background-color: chocolate;
+}
+#peti {
+    grid-area: sesti;
+    background-color: darkgreen;
+}
+#sesti {
+    grid-area: sedmi;
+    background-color: darkgreen;
+}
+#sedmi {
+    grid-area: osmi;
+    background-color: chocolate;
+}
+#deveti {
+    grid-area: deveti;
+    background-color: lightgreen;
+}
+#deseti {
+    grid-area: cetvrti;
+    background-color: darkseagreen;
+}
+#jedanaesti {
+    grid-area: jedanaesti;
+    background-color: lightgreen;
+}
+#osmi {
+    grid-area: deseti;
+    background-color: chocolate;
+}
